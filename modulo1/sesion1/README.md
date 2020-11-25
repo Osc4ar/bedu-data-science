@@ -26,8 +26,8 @@ describe puesto;
 ![describe_puesto](screenshots/describe_puesto.png "Describe Puesto")
 ```sql
 describe venta;
-![describe_venta](screenshots/describe_venta.png "Describe Venta")
 ```
+![describe_venta](screenshots/describe_venta.png "Describe Venta")
 | Tipo        | Descripción                                        |
 |-------------|----------------------------------------------------|
 | `ìnt`       | Números Enteros                                    |
