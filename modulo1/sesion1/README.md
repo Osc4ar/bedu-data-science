@@ -25,14 +25,12 @@ describe puesto;
 ```sql
 describe venta;
 ```
-|-------------|----------------------------------------------------|
 | Tipo        | Descripción                                        |
 |-------------|----------------------------------------------------|
 | `ìnt`       | Números Enteros                                    |
 | `varchar`   | Cadenas de caracteres de longitud variable         |
 | `timestamp` | Fecha y hora                                       |
 | `double`    | Números con decimales                              |
-|-------------|----------------------------------------------------|
 
 ## Reto 2: Estructura básica de una consulta
 
