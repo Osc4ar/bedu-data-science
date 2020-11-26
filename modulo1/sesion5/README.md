@@ -105,4 +105,16 @@ Usando la colección `sample_airbnb.listingsAndReviews`, agrega un filtro que pe
 ### 2. Desarrollo :rocket:
 
 Usando la colección `sample_airbnb.listingsAndReviews`, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
+```json
+[{$match: {
+  amenities: {
+    $in: [/ethernet/i, /wifi/i, /wi-fi/i]
+  }
+}}, {$group: {
+  _id: null,
+  count: {
+    $sum: 1
+  }
+}}]
+```
 ![sesion5_reto3_p1](screenshots/sesion5_reto3_p1.png)
