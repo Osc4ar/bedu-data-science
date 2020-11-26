@@ -28,6 +28,7 @@ CREATE TABLE movies(
   Genres VARCHAR(100)
 );
 ```
+![createmovies](screenshots/create_movies.png "Create Movies")
 3. Definir los campos y tipos de datos para la tabla `ratings` haciendo uso de los archivos `ratings.dat` y `README`.
 ```
 | Columna   |  Tipo    |
@@ -48,7 +49,7 @@ CREATE TABLE ratings(
   FOREIGN KEY (MovieID) REFERENCES movies(MovieID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 ```
-
+![createratings](screenshots/create_ratings.png "Create Ratings")
 ## Reto 2: Importando datos a una tabla en formato CSV
 
 ### 1. Objetivos :dart:
@@ -58,9 +59,9 @@ CREATE TABLE ratings(
 ### 2. Desarrollo :rocket:
 
 1. Usando como base el archivo `movies.dat`, limpiarlo e importar los datos en la tabla `movies` creada en el Reto 1.
-
+![importmovies](screenshots/import_movies.png "Import Movies")
 1. Usando como base el archivo `ratings.dat`, limpiarlo e importar los datos en la tabla `ratings` creada en el Reto 2.
-
+![importratings](screenshots/import_ratings.png "Import Ratings")
 
 ## Reto 3: Realizando operaciones con Colecciones e importando datos
 
@@ -69,3 +70,9 @@ CREATE TABLE ratings(
 - Que el alumno importe datos en formato CSV a una Colección
 
 ### 2. Desarrollo :rocket:
+
+1. Importando movies en Mongo:
+![mongoimportmovies](screenshots/mongo_import_movies.png "Mongo Import Movies")
+
+2. Importando ratings en Mongo:
+![mongoimportratings](screenshots/mongo_import_ratings.png "Mongo Import Ratings")
