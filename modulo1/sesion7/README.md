@@ -13,13 +13,11 @@
 ### 2. Desarrollo :rocket:
 
 1. Definir los campos y tipos de datos para la tabla `movies` haciendo uso de los archivos `movies.dat` y `README`.
-```
 | Columna |  Tipo   |
 |---------|---------|
 | MovieID | INTEGER |
 | Title   | VARCHAR |
 | Genres  | VARCHAR |
-```
 2. Crear la tabla `movies` (recuerda usar el mismo nombre del archivo sin la extensión para vincular nombres de tablas con archivos).
 ```sql
 CREATE TABLE movies(
@@ -30,14 +28,12 @@ CREATE TABLE movies(
 ```
 ![createmovies](screenshots/create_movies.png "Create Movies")
 3. Definir los campos y tipos de datos para la tabla `ratings` haciendo uso de los archivos `ratings.dat` y `README`.
-```
 | Columna   |  Tipo    |
 |-----------|----------|
 | UserID    | INTEGER  |
 | MovieID   | INTEGER  |
 | Rating    | TINYINT  |
 | Timestamp | BIGINT   |
-```
 4. Crear la tabla ratings (recuerda usar el mismo nombre del archivo sin la extensión para vincular nombres de tablas con archivos)
 ```sql
 CREATE TABLE ratings(
