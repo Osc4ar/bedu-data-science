@@ -99,28 +99,28 @@ Usando la base de datos `sample_mflix`, agrega proyeccciones, filtros, ordenamie
 - ¿Cuál es el máximo número de comentarios en una película?
 ```json
 {
-  project: {
-    num_mflix_comments: 1
+  "project": {
+    "num_mflix_comments": 1
   },
-  sort: {
-    num_mflix_comments: -1
+  "sort": {
+    "num_mflix_comments": -1
   },
-  limit: 1
+  "limit": 1
 }
 ```
 ![sesion4_reto2_p3](screenshots/sesion4_reto2_p3.png)
 - ¿Cuál es el título de las cinco películas más comentadas?
 ```json
 {
-  project: {
-    num_mflix_comments: 1,
-    title: 1,
-    _id: 0
+  "project": {
+    "num_mflix_comments": 1,
+    "title": 1,
+    "_id": 0
   },
-  sort: {
-    num_mflix_comments: -1
+  "sort": {
+    "num_mflix_comments": -1
   },
-  limit: 5
+  "limit": 5
 }
 ```
 ![sesion4_reto2_p4](screenshots/sesion4_reto2_p4.png)
